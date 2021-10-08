@@ -10,7 +10,7 @@ This code contains 1 tutorial "test_Optical_Flow_L2L2_2D.m" designed to:
 
 - estimate dense velocity field between 2 opposite time of the breathing cycle,
 
-- diplay the image registration results.
+- display image registration results.
 
 This code has been written by Baudouin Denis de Senneville (Institut de Mathématiques de Bordeaux, UMR 5231 CNRS, Université de Bordeaux 351, cours de la Libération - F 33 405 TALENCE).
 
