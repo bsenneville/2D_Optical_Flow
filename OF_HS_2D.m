@@ -51,7 +51,7 @@ Ireg = imageRegistration_2D(Icur,uprec+u,vprec+v);
 uk = zeros(dimx,dimy);
 vk = zeros(dimx,dimy);
 
-error2 = zeros(nb_iter_FP_max);
+error = zeros(nb_iter_FP_max);
 
 kernelM = ones(3,3)/9.;
 
@@ -132,7 +132,7 @@ for it_pf = 1 : nb_iter_FP_max   % Algo L2L2
     
     residu = mean(sqrt((uk(:) - utmp(:)) .^ 2 + (vk(:) - vtmp(:)) .^2));
     
-    error2(it_pf) = residu;
+    error(it_pf) = residu;
     
     if (residu < epsilon_pf)
         break;
