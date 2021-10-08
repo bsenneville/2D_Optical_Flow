@@ -15,4 +15,4 @@ This code was developed under the commercial software Matlab ©1994-2021 The Mat
 
 Please cite the following paper if you are using this code:
 
-Zachiu C., Papadakis N., Ries M., Moonen C. T. W., Denis de Senneville B., "An improved optical flow tracking technique for real-time MR-guided beam therapies in moving organs", Physics in Medicine and Biology, 2015; 60 (23), 9003.
+Zachiu C., Papadakis N., Ries M., Moonen C. T. W., Denis de Senneville B., An improved optical flow tracking technique for real-time MR-guided beam therapies in moving organs, Physics in Medicine and Biology, 2015; 60 (23), 9003.
